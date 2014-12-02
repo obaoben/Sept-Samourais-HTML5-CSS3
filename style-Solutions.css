@@ -1,0 +1,106 @@
+body{
+background-color:#cacbcd;
+margin-top:20px;
+}
+
+div {
+border:1px dashed #ffffff;
+margin:auto;
+width:1024px;
+}
+
+nav{
+background-color: #444444;
+height:2em;}
+
+nav ul {
+margin:0px;
+list-style:none;
+padding:0px;
+}
+
+nav ul li {
+float:left;
+background-color:#777777;
+}
+
+.actived {
+background-color:#891a20;
+}
+
+nav ul li a {
+display:block;
+height:2em;
+line-height:2em;
+padding:0 10px 0 10px;
+color:#ffffff;
+text-decoration:none;
+font-family:verdana;
+}
+
+
+nav ul li a:hover {
+background-color:#891a20;
+}
+
+
+
+header{
+background:url('img/bannerHeader.jpg') no-repeat;
+height:400px;
+}
+
+header h1 {
+margin:0px;
+font-family:verdana;
+color:#ac191f;
+padding:100px 0 0 20px;
+}
+
+section{
+background-color: #777777;
+}
+
+article{
+background-color:#DDDDDD;
+display:inline-block;
+width:70%;
+padding:0 20px 0 20px;
+font-family: verdana;
+font-size:0.8em;
+text-align:justify;
+}
+
+Article h1 {
+font-size:2em;
+color:#ac191f;
+}
+
+aside{
+display:inline-block;
+vertical-align:top;
+padding:0 20px 0 20px;
+}
+
+.titreImage {
+font-style:bold;
+font-size:1em;
+font-family:verdana;
+color:#ffffff;
+}
+
+footer{
+color:#ffffff;
+background-color: #444444;
+clear:both;
+}
+
+footer p{
+margin:0px;
+font-family:verdana;
+font-size:0.7em;
+text-align:center;
+height:3em;
+line-height:3em;
+vertical-align:middle;
+}
